@@ -4,6 +4,8 @@ This repository contains code to reproduce analysis from "Chapter 6: Group *L*<s
 
 `analysis.R` reproduces all analysis procedures outlined in the paper.
 
+Note that the version of the **L1centrality** package must be *higher* than 0.2.1.
+
 ### Reference
 
 -   Seungwoo Kang. *Topics in Non-Euclidean Dimension Reduction*. Ph.D. thesis, Seoul National University. 2025.
