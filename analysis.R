@@ -11,7 +11,7 @@ rownames(res_group) <- series_names
 
 for(n in seq_along(colnames(res_group))){
   for(i in seq_along(series_nodes)){
-    res_group[i,n] <- L1centGROUP(MCUmovie, nodes = series_nodes[[i]], eta = V(MCUmovie)$worldwidegross,
+    res_group[i,n] <- L1centGROUP(MCUmovie, nodes = series_nodes[[i]], vertex_weight = V(MCUmovie)$worldwidegross,
                                   method = colnames(res_group)[n])
   }
 }
